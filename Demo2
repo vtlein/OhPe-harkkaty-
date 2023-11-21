@@ -1,0 +1,31 @@
+indeksi = 0
+print("Luku on 0.")
+luku = 0
+
+while True:
+    operaatio = input("Anna operaatio (tyhjä lopettaa): ")
+
+    if not operaatio:
+        break
+
+    operaattori = operaatio[0]
+    operoija = int(operaatio[1:])
+
+    if operaattori == "+":
+        luku += operoija
+    
+    elif operaattori == "-":
+        luku -= operoija
+        
+    elif operaattori == "*":
+        luku *= operoija
+    
+    elif operaattori == "/":
+        if operoija != 0:
+            luku /= operoija
+        else:
+            print("Nollalla jakaminen ei ole sallittua.")
+
+    print("Luku on", luku)
+
+print("Kiitos ja moi!")
