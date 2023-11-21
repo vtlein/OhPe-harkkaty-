@@ -10,7 +10,8 @@ Luo Gitlabiin julkinen tietovarasto, jonka nimi on ohpe_demo1a. Lähetä kirjoit
 Jaa tietovaraston linkki ViLLEssä kierroksella Demo 1 olevaan tehtävään Tehtävä 1. Muista lähettää palautuksesi!
 ##
 
-#Koodi#
+# Koodi #
+
 luku1 = int(input("Anna luku 1: "))
 luku2 = int(input("Anna luku 2: "))
 luku3 = int(input("Anna luku 3: "))
