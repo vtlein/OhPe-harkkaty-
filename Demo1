@@ -1,0 +1,24 @@
+## Demo1 ##
+## Tehtävänanto: Tehtävä 1 (50 %)
+Kirjoita editorilla ohjelma, joka kysyy käyttäjältä kolme lukua ja tulostaa luvuista pienimmän. Ohjelman tulee siis toimia esim. seuraavasti:
+Anna luku 1: 25
+Anna luku 2: -123
+Anna luku 3: 11
+Pienin luku oli -123.
+Tallenna ohjelma nimellä eka.py.
+Luo Gitlabiin julkinen tietovarasto, jonka nimi on ohpe_demo1a. Lähetä kirjoittamasi ohjelma tietovarastoon. 
+Jaa tietovaraston linkki ViLLEssä kierroksella Demo 1 olevaan tehtävään Tehtävä 1. Muista lähettää palautuksesi!
+##
+
+#Koodi#
+luku1 = int(input("Anna luku 1: "))
+luku2 = int(input("Anna luku 2: "))
+luku3 = int(input("Anna luku 3: "))
+
+if luku1 > luku2 and luku3 > luku2:
+    print("Pienin luku oli" , luku2 , ".")
+
+elif luku2 > luku1 and luku3 > luku1:
+    print("Pienin luku oli" , luku1 , ".")
+else:
+    print("Pienin luku oli" , luku3 , ".")
