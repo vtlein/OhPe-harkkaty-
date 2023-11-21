@@ -1,3 +1,24 @@
+## Demo2 ##
+
+## Tehtävänanto: Tehtävä 2 (50 %)
+Kirjoita editorilla laskinohjelma, joka toimii seuraavan esimerkin mukaisesti:
+Luku on 0.
+Anna operaatio (tyhjä lopettaa): +10
+Luku on 10.
+Anna operaatio (tyhjä lopettaa): -5
+Luku on 5.
+Anna operaatio (tyhjä lopettaa): *100
+Luku on 500.
+Anna operaatio (tyhjä lopettaa): /10
+Luku on 50.
+Anna operaatio (tyhjä lopettaa): 
+Kiitos ja moi!
+Tallenna ohjelma nimellä laskin.py. Luo Gitlabiin julkinen tietovarasto, jonka nimi on ohpe_demo1b. Lähetä kirjoittamasi ohjelma tietovarastoon. 
+Jaa tietovaraston linkki ViLLEssä kierroksella Demo 1 olevaan tehtävään Tehtävä 2. Muista lähettää palautuksesi!
+##
+
+# Koodi #
+
 indeksi = 0
 print("Luku on 0.")
 luku = 0
